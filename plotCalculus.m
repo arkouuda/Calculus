@@ -15,6 +15,7 @@ function plotCalculus
             y = y + func(x*k/n)*x/n;
         end
     end
+    figure;
     plot(x,y1,'y',x,y2,'g',x,y3,'r');
     legend('function','derivative','primitive');
     whitebg('black');
